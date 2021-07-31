@@ -335,7 +335,7 @@ class Thread:
         self,
         *,
         closer: typing.Union[discord.Member, discord.User],
-        after: int = 7200,
+        after: int = 0,
         silent: bool = False,
         delete_channel: bool = True,
         message: str = None,
